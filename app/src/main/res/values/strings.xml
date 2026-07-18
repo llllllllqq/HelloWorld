@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">HelloWorld</string>
-    <string name="hello_world">Hello, World!</string>
+    <string name="app_name">HelloWidget</string>
+    <string name="editor_hint">在此输入内容，退出自动保存…</string>
+    <string name="widget_empty_hint">点此编辑</string>
 </resources>
