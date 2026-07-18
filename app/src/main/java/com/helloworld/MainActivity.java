@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText editor;
     private SharedPreferences prefs;
 
-    private static final String PREFS_NAME = "hello_prefs";
+    static final String PREFS_NAME = "hello_prefs";
     public static final String KEY_SAVED_TEXT = "saved_text";
 
     @Override
