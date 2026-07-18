@@ -3,4 +3,5 @@
     <string name="app_name">HelloWidget</string>
     <string name="editor_hint">在此输入内容，退出自动保存…</string>
     <string name="widget_empty_hint">点此编辑</string>
+    <string name="save_success">已保存 ✓</string>
 </resources>

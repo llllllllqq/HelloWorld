@@ -8,15 +8,22 @@
     android:focusable="true"
     android:padding="8dp">
 
-    <TextView
-        android:id="@+id/widget_text"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/transparent"
-        android:ellipsize="end"
-        android:gravity="start|top"
-        android:maxLines="100"
-        android:textColor="#FFFFFF"
-        android:textSize="14sp" />
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/widget_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="start|top"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </ScrollView>
 
 </FrameLayout>

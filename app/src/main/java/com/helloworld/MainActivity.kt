@@ -2,6 +2,7 @@ package com.helloworld
 
 import android.content.Context
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.helloworld.databinding.ActivityMainBinding
 
@@ -32,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         val text = binding.editor.text.toString()
         prefs.edit().putString(KEY_SAVED_TEXT, text).apply()
         TextWidgetProvider.updateWidgets(this)
+        Toast.makeText(this, R.string.save_success, Toast.LENGTH_SHORT).show()
     }
 
     companion object {
